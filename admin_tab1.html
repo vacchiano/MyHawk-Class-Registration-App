@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>MyHawk: The University of Iowa</title>
+    <!-- Bootstrap core CSS link -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- FontAwesome CSS link (min) -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!-- custom CSS links -->
+    <link href="css/my-hawk.css" rel="stylesheet">
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="nav-container">
+        <div class="navbar-header">
+          <!-- hotdog menu button -->
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myhawk-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">MyHawk</a>
+        </div>
+
+        <!-- Nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="myhawk-navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="classes.html"><i class="fa fa-flask"> </i> Classes</a></li>
+            <li><a href="v_advisor.html"><i class="fa fa-sitemap"> </i> Virtual Advisor</a></li>
+            <li><a href="contact.html"><i class="fa fa-calendar-o"> </i> My Schedule</a></li>
+            <!-- <li><a href="contact.html"><i class="fa fa-lock"> </i> Admin</a></li> -->
+            <!-- <li><a href="contact.html"><i class="fa fa-shopping-cart"> </i> Register</a></li> -->
+          </ul>
+          <!-- settings/cart dropdown -->
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hi, Nick! <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#"><i class="fa fa-shopping-cart"></i> View Cart</a></li>
+                <li><a href="admin_tab1.html">&nbsp;<i class="fa fa-lock"> </i>  Admin</a></li>
+                <li class="divider"></li>
+                <li><a href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!-- search bar -->
+          <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search for a class">
+            </div>
+            <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+          </form>
+        </div><!-- /.navbar-collapse -->
+      </div> <!-- /.nav-container -->
+    </nav>
+
+    <!-- Course Type Toggle Menu -->
+    <div class="collapse navbar-collapse" id="myhawk-navbar-collapse">
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="admin_tab1.html"> Current Courses</a></li>
+            <li><a href="admin_tab2.html"> Past Courses</a></li>
+          </ul>
+    </div>
+    
+    <!-- Courses Display --!>
+      <div class="row">
+        <div class="box-other">
+          <div class="list-group overspace">
+            <!-- Class 1 -->
+            <a href="javascript:void(0)" class="list-group-item showdetails" data-toggle="collapse" data-target="#details1"><h4>Problems in Design (01T:056:AAA)<span style="float:right;color:#aaa;"></span></h4></a>
+            <div class="row reveal collapse" id="details1">
+              <div class="col-md-8">
+               <img border="0" src="decision_tree.png" alt="Pulpit rock">
+              </div>
+              <div class="col-md-4 centroid">
+                <div class="row">
+                  <h3 style="margin-top:2px"><strong>MWF @ 9:30-10:20am</strong></h3>
+                  <h4>B. Obama</h4>
+                </div>
+                <!-- buttons -->
+                <div class="row">
+                  <a class="btn btn-primary underspace" href="#" id="profile-button" name="profile-button"><strong>Edit</strong></a>
+                </div>
+              </div>
+            </div>
+            <!-- Class 2 -->
+            <a href="javascript:void(0)" class="list-group-item showdetails" data-toggle="collapse" data-target="#details2"><h4>Scalable Entrepreneurship for Artists (06T:003:AAA)<span style="float:right;color:#aaa;"></span></h4></a>
+            <div class="row reveal collapse" id="details2">
+              <div class="col-md-8">
+               <img border="0" src="decision_tree.png" alt="Pulpit rock">
+              </div>
+              <div class="col-md-4 centroid">
+                <div class="row">
+                  <h3 style="margin-top:2px"><strong>W @ 6:00-8:00pm</strong></h3>
+                  <h4>G. Bush</h4>
+                </div>
+                <!-- buttons -->
+                <div class="row">
+                  <a class="btn btn-primary underspace" href="#" id="profile-button" name="profile-button"><strong>Edit</strong></a>                  
+                </div>
+              </div>
+            </div>
+            <!-- Class 3 -->
+            <a href="javascript:void(0)" class="list-group-item showdetails" data-toggle="collapse" data-target="#details3"><h4>Computer Science for Mathematicians (22C:314:159)<span style="float:right;color:#aaa;"></span></h4></a>
+            <div class="row reveal collapse" id="details3">
+              <div class="col-md-8">
+                <img border="0" src="decision_tree.png" alt="Pulpit rock">
+              </div>
+              <div class="col-md-4 centroid">
+                <div class="row">
+                  <h3 style="margin-top:2px"><strong>MTWThF @ 9:30-10:20am</strong></h3>
+                  <h4>R. Reagan</h4>
+                </div>
+                <!-- buttons -->
+                <div class="row">
+                  <a class="btn btn-primary underspace" href="#" id="profile-button" name="profile-button"><strong>Edit</strong></a>                
+                </div>
+              </div>
+            </div>
+            <!-- Class 4 -->
+            <a href="javascript:void(0)" class="list-group-item showdetails" data-toggle="collapse" data-target="#details4"><h4>Statistics for Fungineers (22S:038:AAA)<span style="float:right;color:#aaa;"></span></h4></a>
+            <div class="row reveal collapse" id="details4">
+              <div class="col-md-8">
+               <img border="0" src="decision_tree.png" alt="Pulpit rock">
+              </div>
+              <div class="col-md-4 centroid">
+                <div class="row">
+                  <h3 style="margin-top:2px"><strong>TTh @ 9:30-10:45am</strong></h3>
+                  <h4>B. Clinton</h4>
+                </div>
+                <!-- buttons -->
+                <div class="row">
+                  <a class="btn btn-primary underspace" href="#" id="profile-button" name="profile-button"><strong>Edit</strong></a>                 
+                </div>
+              </div>
+            </div>
+            <!-- Class 5 -->
+            <a href="javascript:void(0)" class="list-group-item showdetails" data-toggle="collapse" data-target="#details5"><h4>Art History for Epidemiologists (01H:013:AAA)<span style="float:right;color:#aaa;"></span></h4></a>
+            <div class="row reveal collapse" id="details5">
+              <div class="col-md-8">
+               <img border="0" src="decision_tree.png" alt="Pulpit rock">
+              </div>
+              <div class="col-md-4 centroid">
+                <div class="row">
+                  <h3 style="margin-top:2px"><strong>MW @ 2:00-3:15pm</strong></h3>
+                  <h4>J. Carter</h4>
+                </div>
+                <!-- buttons -->
+                <div class="row">
+                  <a class="btn btn-primary underspace" href="#" id="profile-button" name="profile-button"><strong>Edit</strong></a>                  
+                </div>
+              </div>
+            </div>
+            <!-- Class 6 -->
+            <a href="javascript:void(0)" class="list-group-item showdetails" data-toggle="collapse" data-target="#details6"><h4>Physics for Philosophers (01P:161:AAA)<span style="float:right;color:#aaa;"></span></h4></a>
+            <div class="row reveal collapse" id="details6">
+              <div class="col-md-8">
+               <img border="0" src="decision_tree.png" alt="Pulpit rock">
+              </div>
+              <div class="col-md-4 centroid">
+                <div class="row">
+                  <h3 style="margin-top:2px"><strong>MTWThF @ 10:30-11:20am</strong></h3>
+                  <h4>R. Nixon</h4>
+                </div>
+                <!-- buttons -->
+                <div class="row">
+                  <a class="btn btn-primary underspace" href="#" id="profile-button" name="profile-button"><strong>Edit</strong></a>                
+                </div>
+              </div>
+            </div>
+            <!-- Class 7 -->
+            <a href="javascript:void(0)" class="list-group-item showdetails" data-toggle="collapse" data-target="#details7"><h4>Economics for Architects (01E:012:AAA)<span style="float:right;color:#aaa;"></span></h4></a>
+            <div class="row reveal collapse" id="details7">
+              <div class="col-md-8">
+               <img border="0" src="decision_tree.png" alt="Pulpit rock">
+              </div>
+              <div class="col-md-4 centroid">
+                <div class="row">
+                  <h3 style="margin-top:2px"><strong>MWF @ 11:30am-12:20pm</strong></h3>
+                  <h4>G. Ford</h4>
+                </div>
+                <!-- buttons -->
+                <div class="row">
+                  <a class="btn btn-primary underspace" href="#" id="profile-button" name="profile-button"><strong>Edit</strong></a>                  
+              </div>
+            	</div>
+              </div>
+            <!-- Class 8 -->
+            <a href="javascript:void(0)" class="list-group-item showdetails" data-toggle="collapse" data-target="#details8"><h4>Rock-climbing for Actuaries (01R:111:AAA)<span style="float:right;color:#aaa;"></span></h4></a>
+            <div class="row reveal collapse" id="details8">
+              <div class="col-md-8">
+               <img border="0" src="decision_tree.png" alt="Pulpit rock">
+              </div>
+              <div class="col-md-4 centroid">
+                <div class="row">
+                  <h3 style="margin-top:2px"><strong>TTh @ 1:00-2:15pm</strong></h3>
+                  <h4>L. Johnson</h4>
+                </div>
+                <!-- buttons -->
+                <div class="row">
+                  <a class="btn btn-primary underspace" href="#" id="profile-button" name="profile-button"><strong>Edit</strong></a>                  
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        <!-- create class button --!>  
+        <center>
+        <a class="btn btn-primary underspace" href="#" id="profile-button" name="profile-button"><strong>Create Class</strong></a>
+        </center>
+          </br>
+    	Progress: 40%
+    	<div class="progress">
+  			<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+    		<span class="sr-only">40% Complete (success)</span>
+  			</div>
+		</div>
+      
+    </div><!-- /.container -->
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <p>Copyright &copy;2013 HCI Group 10</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Make sure to add jQuery - download the most recent version at http://jquery.com/ -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+	  // Activates the Carousel
+	  $('.carousel').carousel({
+		interval: 5000
+	  })
+	</script>
+  </body>
+</html>

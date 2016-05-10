@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>MyHawk: The University of Iowa</title>
+    <!-- Bootstrap core CSS link -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- FontAwesome CSS link (min) -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!-- custom CSS links -->
+    <link href="css/my-hawk.css" rel="stylesheet">
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="nav-container">
+        <div class="navbar-header">
+          <!-- hotdog menu button -->
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myhawk-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">MyHawk</a>
+        </div>
+
+        <!-- Nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="myhawk-navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="classes.html"><i class="fa fa-flask"> </i> Classes</a></li>
+            <li><a href="v_advisor.html"><i class="fa fa-sitemap"> </i> Virtual Advisor</a></li>
+            <li><a href="contact.html"><i class="fa fa-calendar-o"> </i> My Schedule</a></li>
+            <!-- <li><a href="contact.html"><i class="fa fa-lock"> </i> Admin</a></li> -->
+            <!-- <li><a href="contact.html"><i class="fa fa-shopping-cart"> </i> Register</a></li> -->
+          </ul>
+          <!-- settings/cart dropdown -->
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hi, Nick! <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#"><i class="fa fa-shopping-cart"></i> View Cart</a></li>
+                <li><a href="#">&nbsp;<i class="fa fa-lock"> </i>  Admin</a></li>
+                <li class="divider"></li>
+                <li><a href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!-- search bar -->
+          <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search for a class">
+            </div>
+            <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+          </form>
+        </div><!-- /.navbar-collapse -->
+      </div> <!-- /.nav-container -->
+    </nav>
+
+    <!-- ALL SEARCH -->
+    <div class="container">
+      <div class="row">
+        <div class="box-other">
+          <form class="form-horizontal">
+            <form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend><center>Create Class</center></legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="ClassName">Class Name</label>  
+  <div class="col-md-4">
+  <input id="ClassName" name="ClassName" type="text" placeholder="Class Name" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="ClassNumber">Class Number</label>  
+  <div class="col-md-4">
+  <input id="ClassNumber" name="ClassNumber" type="text" placeholder="Class Number" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="ClassDescription">Class Description</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="ClassDescription" name="ClassDescription"></textarea>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="ClassSeats">Available Seats</label>  
+  <div class="col-md-4">
+  <input id="ClassSeats" name="ClassSeats" type="text" placeholder="Seats" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="ClassLocation">Location</label>  
+  <div class="col-md-4">
+  <input id="ClassLocation" name="ClassLocation" type="text" placeholder="Location" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Class_Time_From">Class Time From</label>
+  <div class="col-md-4">
+    <select id="Class_Time_From" name="Class_Time_From" class="form-control">
+      <option value="1">12:00 am</option>
+      <option value="2">12:30 am</option>
+      <option value="3">1:00 am</option>
+      <option value="4">1:30 am</option>
+      <option value="5">2:00 am</option>
+      <option value="6">2:30 am</option>
+      <option value="7">3:00 am</option>
+      <option value="8">3:30 am</option>
+      <option value="9">4:00 am</option>
+      <option value="11">4:30 am</option>
+      <option value="12">5:00 am</option>
+      <option value="13">5:30 am</option>
+      <option value="14">6:00 am</option>
+      <option value="15">6:30 am</option>
+      <option value="16">7:00 am</option>
+      <option value="17">7:30 am</option>
+      <option value="18">8:00 am</option>
+      <option value="19">8:30 am</option>
+      <option value="20">9:00 am</option>
+      <option value="21">9:30 am</option>
+      <option value="22">10:00 am</option>
+      <option value="23">10:30 am</option>
+      <option value="24">11:00 am</option>
+      <option value="25">11:30 am</option>
+      <option value="26">12:00 pm</option>
+      <option value="27">12:30 pm</option>
+      <option value="28">1:00 pm</option>
+      <option value="29">1:30 pm</option>
+      <option value="30">2:00 pm</option>
+      <option value="31">2:30 pm</option>
+      <option value="32">3:00 pm</option>
+      <option value="33">3:30 pm</option>
+      <option value="34">4:00 pm</option>
+      <option value="35">4:30 pm</option>
+      <option value="36">5:00 pm</option>
+      <option value="37">5:30 pm</option>
+      <option value="38">6:00 pm</option>
+      <option value="39">6:30 pm</option>
+      <option value="40">7:00 pm</option>
+      <option value="41">7:30 pm</option>
+      <option value="42">8:00 pm</option>
+      <option value="43">8:30 pm</option>
+      <option value="44">9:00 pm</option>
+      <option value="45">9:30 pm</option>
+      <option value="46">10:00 pm</option>
+      <option value="47">10:30 pm</option>
+      <option value="">11:00 pm</option>
+      <option value="">11:30 pm</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">Class Time Until</label>
+  <div class="col-md-4">
+    <select id="selectbasic" name="selectbasic" class="form-control">
+      <option value="1">12:00 am</option>
+      <option value="2">12:30 am</option>
+      <option value="3">1:00 am</option>
+      <option value="4">1:30 am</option>
+      <option value="5">2:00 am</option>
+      <option value="6">2:30 am</option>
+      <option value="7">3:00 am</option>
+      <option value="8">3:30 am</option>
+      <option value="9">4:00 am</option>
+      <option value="11">4:30 am</option>
+      <option value="12">5:00 am</option>
+      <option value="13">5:30 am</option>
+      <option value="14">6:00 am</option>
+      <option value="15">6:30 am</option>
+      <option value="16">7:00 am</option>
+      <option value="17">7:30 am</option>
+      <option value="18">8:00 am</option>
+      <option value="19">8:30 am</option>
+      <option value="20">9:00 am</option>
+      <option value="21">9:30 am</option>
+      <option value="22">10:00 am</option>
+      <option value="23">10:30 am</option>
+      <option value="24">11:00 am</option>
+      <option value="25">11:30 am</option>
+      <option value="26">12:00 pm</option>
+      <option value="27">12:30 pm</option>
+      <option value="28">1:00 pm</option>
+      <option value="29">1:30 pm</option>
+      <option value="30">2:00 pm</option>
+      <option value="31">2:30 pm</option>
+      <option value="32">3:00 pm</option>
+      <option value="33">3:30 pm</option>
+      <option value="34">4:00 pm</option>
+      <option value="35">4:30 pm</option>
+      <option value="36">5:00 pm</option>
+      <option value="37">5:30 pm</option>
+      <option value="38">6:00 pm</option>
+      <option value="39">6:30 pm</option>
+      <option value="40">7:00 pm</option>
+      <option value="41">7:30 pm</option>
+      <option value="42">8:00 pm</option>
+      <option value="43">8:30 pm</option>
+      <option value="44">9:00 pm</option>
+      <option value="45">9:30 pm</option>
+      <option value="46">10:00 pm</option>
+      <option value="47">10:30 pm</option>
+      <option value="">11:00 pm</option>
+      <option value="">11:30 pm</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="SemesterLabel">Semester</label>
+  <div class="col-md-4">
+    <select id="SemesterLabel" name="SemesterLabel" class="form-control">
+      <option value="1">Fall</option>
+      <option value="2">Winter</option>
+      <option value="">Spring</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="YearLabel">Year</label>
+  <div class="col-md-4">
+    <select id="YearLabel" name="YearLabel" class="form-control">
+      <option value="1">2013</option>
+      <option value="2">2014</option>
+    </select>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="ClassInstructor">Instructor</label>  
+  <div class="col-md-4">
+  <input id="ClassInstructor" name="ClassInstructor" type="text" placeholder="Instructor" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="ClassBook">Text Book</label>  
+  <div class="col-md-4">
+  <input id="ClassBook" name="ClassBook" type="text" placeholder="Book" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="ClassBookLink">Text Book Link</label>  
+  <div class="col-md-4">
+  <input id="ClassBookLink" name="ClassBookLink" type="text" placeholder="Book Link" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- File Button --> 
+<div class="form-group">
+  <label class="col-md-4 control-label" for="ClassVideo">Add Video</label>
+  <div class="col-md-4">
+    <input id="ClassVideo" name="ClassVideo" class="input-file" type="file">
+  </div>
+</div>
+
+<!-- File Button --> 
+<div class="form-group">
+  <label class="col-md-4 control-label" for="ClassSyllabus">Upload Syllabus</label>
+  <div class="col-md-4">
+    <input id="ClassSyllabus" name="ClassSyllabus" class="input-file" type="file">
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="ClassCreateButton"></label>
+  <div class="col-md-4">
+    <button id="ClassCreateButton" name="ClassCreateButton" class="btn btn-primary">Create Class</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+            
+
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      
+    </div><!-- /.container -->
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <p>Copyright &copy;2013 HCI Group 10</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Make sure to add jQuery - download the most recent version at http://jquery.com/ -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+	  // Activates the Carousel
+	  $('.carousel').carousel({
+		interval: 5000
+	  })
+	</script>
+  </body>
+</html>
